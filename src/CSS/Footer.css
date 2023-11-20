@@ -1,0 +1,167 @@
+
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #scrollToTopBtn .circle {
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #scrollToTopBtn .circle i {
+    color: #000;
+  }
+  /* Footer Section */
+  footer {
+      background-color: #f8f9fa; /* Set your desired background color */
+      padding: 40px 0; /* Adjust top and bottom padding as needed */
+      color: #333; /* Set your text color */
+    }
+    .footer-news h2,
+    .footer-news p {
+        text-align: center;
+    }
+    /* Style for the input field container */
+    .footer-newsletter {
+      position: relative; /* Position relative for containing the input and button */
+      width: 100%; /* Make sure it spans the entire width */
+      text-align: center;
+    }
+    
+    /* Style for the email input */
+    .footer-newsletter input[type="email"] {
+      background-color: #f8f9fa;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      font-size: 16px;
+    }
+    .footer-newsletter input[type="email"]:focus {
+      outline: none;
+      background-color: #fff;
+      border: 1px solid #007bff;
+    }
+    /* Style for the button */
+    .footer-newsletter button {
+      background-color: #f8f9fa;
+      color: #000;
+      border: none;
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      padding: 10px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      position: absolute; /* Position absolute for the button */
+      top: 50%; /* Place it in the middle vertically */
+      right: 0px; /* Adjust the right distance from the input field */
+      transform: translateY(-50%); /* Center it vertically */
+    }
+    
+    /* Style for the button on hover */
+    .footer-newsletter button:hover {
+      background-color: #0056b3;
+    }
+    
+    /* Adjust the icon within the button */
+    .footer-newsletter button i {
+      margin-right: 0; /* Remove the default margin to center the icon within the button */
+    }
+    
+    /* Footer Column Styling */
+    .footer-column {
+      margin-bottom: 20px; /* Adjust spacing between columns */
+    }
+    /* Style for the links in the footer-icon-list */
+    .footer-icon-list li {
+      list-style: none;
+    }
+    .footer-icon-list a {
+      list-style: none;
+      color: #555; /* Define the default link color */
+      text-decoration: none; /* Remove the default underline on links */
+      transition: color 0.3s, text-decoration 0.3s; /* Smooth transition for color and text-decoration */
+      margin: 5px 0; /* Adjust margin as needed (top and bottom: 5px, left and right: 0) */
+      padding: 20px; /* Adjust padding as needed (top and bottom: 5px, left and right: 10px) */
+      font-size: 12px; /* Adjust the font size as needed */
+    }
+    
+    /* Style for links on hover */
+    .footer-icon-list a:hover {
+      color: #007bff; /* Define the color on hover */
+      text-decoration: underline; /* Add underline on hover */
+    }
+    
+    /* Style for social media icons container */
+    .footer-social-icons {
+      text-align: center; /* Center the icons horizontally */
+      border: 2px solid transparent; /* Add a transparent border */
+      border-radius: 50%; /* Create a circle with border-radius */
+    }
+    
+    /* Style for each social media icon */
+    .footer-social-icons .social-icon {
+      font-size: 12px; /* Adjust the icon size */
+      color: #000; /* Define the default icon color */
+      margin-right: 10px; /* Add some spacing between icons */
+      text-decoration: none; /* Remove the default underline on links */
+      padding: 7px; /* Add some padding inside the circle */
+      transition: border-color 0.3s, color 0.3s; /* Smooth transition for border and color */
+    }
+    
+    /* Style for social media icons on hover */
+    .footer-social-icons .social-icon:hover {
+      color: #007bff; /* Define the color on hover */
+      border-color: #007bff; /* Add border color on hover */
+    }
+    
+    /* Icon styling */
+    .footer-contact-item .footer-flaticon-house i,
+    .footer-contact-item .footer-flaticon-phone-call i,
+    .footer-contact-item .footer-flaticon-mail i {
+      border: 2px solid #ccc;
+      border-radius: 50%;
+      padding: 10px; /* Adjust the padding as needed */
+      transition: border-color 0.3s ease;
+      font-size: 12px; /* Adjust the icon size as needed */
+      margin-left: 12px; /* Adjust the margin between icon and text */
+      margin-right: 12px; /* Adjust the margin between icon and text */
+      color: #000;
+    }
+    
+    /* Hover effect for icons */
+    .footer-contact-item .footer-flaticon-house:hover i,
+    .footer-contact-item .footer-flaticon-phone-call:hover i,
+    .footer-contact-item .footer-flaticon-mail:hover i {
+      color: #007bff;
+    }
+    
+    /* Label styling */
+    .footer-contact-item .text {
+      margin: 0; /* Adjust the margin around the label as needed */
+      padding: 0; /* Adjust the padding around the label as needed */
+    }
+    
+    /* Copyright Text */
+    .footer-copy {
+      background-color: #f8f9fa; /* Set background color for the copyright section */
+      color: #000; /* Set text color for the copyright section */
+      padding: 10px 0; /* Adjust top and bottom padding for the copyright section */
+      text-align: center; /* Center-align the copyright text */
+      font-size: 14px; /* Adjust the copyright font size */
+    }
+    
